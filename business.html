@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+    <header style="background-color: black;">
+        <h1 class="CoNvErTeR">CoNvErTeR</h1>
+    </header>
+    <main>
+        <div class="loginback">
+            <div class="backlogin">
+                <div class="loginbox" style="margin-top: 0px; margin-bottom: 270px;">
+                    <p class="ll1" style="margin: 0px;">Sign Up Portal</p>
+                    <p style="font-size: 1.4rem; font-weight: bolder;">Business Registation</p>
+                    <input type="email" placeholder="Plese Enter Your Name" class="usernamelog1"  id="one">
+                    <input type="email" placeholder="Plese Enter Your Company Name" class="usernamelog1" id=two>
+                    <input type="email" placeholder="Plese Enter Your Company Afeleated Id" class="usernamelog1" id="three">
+                    <input type="password" placeholder="Plese Enter Your Email" class="usernamelog2" id="four">
+                    <input type="number" placeholder="Plese Enter Your Mobile No." class="usernamelog2" id="five">
+                    <input type="text" placeholder="Plese Enter Your Company Name" class="usernamelog2" id="six">
+                    <input type="number" placeholder="Plese Enter Your Adhar No." class="usernamelog2" id="seven">
+                    <p style="margin: 0px; margin-top: 5px;">From When Y Work in Company</p>
+                    <input type="date" placeholder="Plese Enter Your Company Name" class="usernamelog2" id="six">
+                    <select name="Class" class="usernamelog2" style="height: 50px; color: black;">
+                        <option value="volvo">Select Plan</option>
+                        <option value="saab">One Mounth Rs399/</option>
+                        <option value="mercedes">Two Mounth Rs699/</option>
+                        <option value="mercedes">Three Mounth Rs1000/</option>
+                        <option value="mercedes">Six Mounth Rs1700/</option>
+                        <option value="mercedes">One Year Rs3000/</option>
+                      </select>
+                    <p class="Plese" style="margin-top: 8px;"></p>
+                    <button class="submitlog" style="width: 200px;">Proced To Pay</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        let var11 = document.querySelector("#one"),
+        var12 = document.querySelector("#two"),
+        var13 = document.querySelector("#three"),
+        var14 = document.querySelector("#four"),
+        var15 = document.querySelector("#five"),
+        var16 = document.querySelector("#six"),
+        var17 = document.querySelector("#seven"),
+        Plese = document.querySelector(".Plese"),
+        submit = document.querySelector(".submitlog");
+
+        submit.addEventListener("click", () => {
+            let val = var11.value;
+            let val1 = var12.value;
+            let val2 = var13.value;
+            let val3 = var14.value;
+            let val4 = var15.value;
+            let val5 = var16.value;
+            let val6 = var17.value;
+            console.log(val);
+            if(val == '' || val1 == '' || val2 == '' || val3 == '' || val4 == '' || val5 == '' || val6 == ''){
+                Plese.innerText = "Plese Fill All Blank.";
+            }else {
+                window.open('PaymentPage.html');
+            }
+        })
+    </script>
+</body>
+
+</html>
