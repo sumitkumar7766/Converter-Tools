@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+    <header style="background-color: black;">
+        <h1 class="CoNvErTeR">CoNvErTeR</h1>
+    </header>
+    <main>
+        <div class="loginback">
+            <div class="backlogin">
+                <div class="loginbox">
+                    <p class="ll1" style="margin: 0px;">Sign Up Portal</p>
+                    <div class="selecter">
+                        <input type="radio" id="huey" name="drone" value="Student"/>
+                        <label for="huey"><a href="student.html" style="text-decoration: none; color: white;">Student</a></label>
+                        <input type="radio" id="dewey" name="drone" value="Teacher" />
+                        <label for="dewey"><a href="teacher.html" style="text-decoration: none; color: white;">Teacher</a></label>
+                        <input type="radio" id="louie" name="drone" value="Business" />
+                        <label for="louie"><a href="business.html" style="text-decoration: none; color: white;">Business</a></label>
+                    </div>
+                    <p class="Plese"></p>
+                    <button class="submitlog">Login</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        let submitlog = document.querySelector(".submitlog"),
+        plese = document.querySelector(".Plese");
+
+        submitlog.addEventListener("click", () => {
+            plese.innerText = "Plese Click On The Word";
+            plese.style.color = "red";
+        })
+    </script>
+</body>
+
+</html>

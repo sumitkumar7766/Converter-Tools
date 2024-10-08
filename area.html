@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header style="background-color: black;"></header>
+        <h1 class="CoNvErTeR">Find ArEa Tols...</h1>
+        <nav class="navbar navbar-expand-lg fs-5 fw-bolder">
+            <div class="container-fluid" id="navbar" style="border: white 2px solid; border-radius: 10px; height: 60px;">
+              <a class="navbar-brand" style="color: red;" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="converter.html" style="color: red;">Converter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="peremeter.html" style="color: red;">Peremeter</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" style="color: red;">
+                      Type
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item fs-5 fw-bolder" href="area.html" style="color: red;">Area</a></li>
+                      <li><a class="dropdown-item fs-5 fw-bolder" href="peremeter.html" style="color: red;">Peremeter</a></li>
+                      <li><a class="dropdown-item fs-5 fw-bolder" href="converter.html" style="color: red;">Converter</a></li>
+                      <li><a class="dropdown-item fs-5 fw-bolder" href="volum.html" style="color: red;">Volum</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link active" href="contactus.html" style="color: red;">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div style="display:flex; flex-wrap: wrap; justify-content: space-evenly;">
+            <figure class="figure bg-black" id="figure6">
+                <p class="Find">Find Area of Square</p>
+                <input type="number" class="Inpute" placeholder="Plese Enter The Length of Square." required>
+                <p id="Area">The Area Of Square is = </p>
+                <button id="SubmitArea" aria-required="*">Submit</button>
+
+              </figure>
+            <figure class="figure bg-black" id="figure7">
+                <p class="Find2">Find Area of Rectangle</p>
+                <input type="number" class="Inpute" id="Length" placeholder="Plese Enter The Length." required>
+                <input type="number" class="Inpute" id="Breath" placeholder="Plese Enter The Breath." required>
+                <p class="RectangleStyle" id="RectangleJS">The Area Of Rectangle is = </p>
+                <button class="SubmitStyleRec" id="SubmitAreaRecJs" aria-required="*" style="margin-bottom: 50px;">Submit</button>
+                
+              </figure>
+            <figure class="figure bg-black" id="figure8">
+                <p class="Find3">Find Area of Triangle</p>
+                <input type="number" class="Inpute" id="LengthofBase" placeholder="Plese Enter The Lg. of base." required>
+                <input type="number" class="Inpute" id="LengthofHeight" placeholder="Plese Enter The Lg. of Height." required>
+                <p class="RectangleStyle" id="TriangleJs">The Area Of Triangle is = </p>
+                <button class="SubmitStyleRec" id="SubmitAreaTriJs" aria-required="*" style="margin-bottom: 50px;">Submit</button>
+                
+              </figure>
+            <figure class="figure bg-black" id="figure9">
+                <p class="Find4">Find Area of Cube</p>
+                <input type="number" class="Inpute" id="LengthofCube" placeholder="Plese Enter The Lg. of Cube." required>
+                <p class="RectangleStyle" id="CubeJs">The Area Of Cube is = </p>
+                <button class="SubmitStyleRec" id="SubmitAreaCuiJs" aria-required="*">Submit</button>
+              </figure>
+            <figure class="figure bg-black" id="figure10">
+                <p class="Find5" style="margin-top: 60px;">Find Area of Cuboid</p>
+                <input type="number" class="Inpute" id="LengthofCuboid" placeholder="Plese Enter The Lg. of Cuboid." required>
+                <input type="number" class="Inpute" id="Breathofcuboid" placeholder="Plese Enter The Br. of Cuboid." required>
+                <input type="number" class="Inpute" id="Heightofcuboid" placeholder="Plese Enter The Hi. of Cuboid." required>
+                <p class="RectangleStyle" id="CuboidJs" style="margin-bottom: 20px;">The Area Of Cuboid is = </p>
+                <button class="SubmitStyleRec" id="SubmitAreaCuboidiJs" aria-required="*" style="margin-bottom: 60px;">Submit</button>
+                
+              </figure>
+            <figure class="figure bg-black" id="figure11">
+                <p class="Find6">Find Area of Circle</p>
+                <input type="number" class="Inpute" id="Radiusofcircle" placeholder="Plese Enter The Radius of Circle" required>
+                <p class="RectangleStyle" id="Areaofcircle11" style="margin-bottom: 30px;">The Area Of Square is = </p>
+                <button class="SubmitStyleRec" id="SubmitAreaCircleJs" aria-required="*" style="margin-bottom: 45px;">Submit</button>
+              </figure>
+        </div>
+        </main>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
