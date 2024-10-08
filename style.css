@@ -1,0 +1,941 @@
+.CoNvErTeR {
+    color: red;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.figure:hover {
+    border: 2px solid orangered;
+}
+
+#figure1 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#figure2 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url(https://img.freepik.com/free-vector/gradient-geometric-shapes-background_23-2149107097.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#figure3 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url(https://img.freepik.com/premium-vector/geometric-background-bg-shape-background-square-background-polygonal-background-abstract-bg_634868-12.jpg);
+}
+
+#figure4 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url(https://as1.ftcdn.net/v2/jpg/04/34/71/84/1000_F_434718469_adVQ95PSeSr7xUBYZXOCkUGoH8pRi7n9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#figure6 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure7 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure8 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure9 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure10 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure11 {
+    background-image:
+        url(https://img.freepik.com/free-vector/grunge-background-with-abstract-spray-paint-border_1048-20484.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 706px) {
+    #figure7 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure6 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure8 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure9 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure10 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure11 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+.Find {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Inpute {
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bolder;
+}
+
+#SubmitArea {
+    height: 60px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#Area {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(5, 202, 169);
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.RectangleStyle {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(5, 202, 169);
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.SubmitStyleRec {
+    height: 60px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Find2 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Find3 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Find4 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Find5 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Find6 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.Find7 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure12 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#figure21 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find8 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure13 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find9 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure14 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find10 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure15 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find11 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure16 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find12 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure17 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find13 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure18 {
+    background-image:
+        url(https://img.freepik.com/free-vector/abstract-background-with-detailed-grunge-border-design_1048-20379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find14 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+@media (max-width: 702px) {
+    #figure12 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure13 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure14 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure15 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure16 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure17 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure18 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure21 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+#figure19 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find15 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure20 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find16 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure22 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find17 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure23 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find18 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure24 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find19 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure25 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find20 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure26 {
+    background-image:
+        url(https://img.freepik.com/premium-vector/luxury-golden-border-background-vector-illustration-abstract-background_518299-1587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 628px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find21 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+@media (max-width: 628px) {
+    #figure19 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure20 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure22 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure23 {
+        background-image: none;
+        background-color: black;
+    }
+
+    #figure24 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+#figure27 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find22 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure28 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find23 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure29 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find24 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure30 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find25 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure31 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find26 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+#figure32 {
+    background-image:
+        url(https://media.istockphoto.com/id/1353370398/vector/vector-black-vintage-background-blank-frame-filigree-swirls-white-elegant.jpg?s=612x612&w=0&k=20&c=xJ0gHIrtOQTfeakBL0vdunFbaM_g3I2UdtMK4TvknYg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Find27 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+    height: 50px;
+}
+
+.mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    border-top: 2px solid white;
+
+}
+
+.box1 {
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainfooter {
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.3rem;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+#term {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.backlogin {
+    background-image: url(https://t3.ftcdn.net/jpg/05/06/79/02/240_F_506790264_N8BVZ9NLLRrTAShK6PADQmo0SZ4LUuJJ.jpg);
+    height: 700px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.loginback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin-right: 100px;
+    /* border: 2px solid white; */
+    margin-bottom: 100px;
+}
+
+.ll1 {
+    font-size: 3rem;
+    color: yellowgreen;
+    text-decoration: underline;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.usernamelog1 {
+    width: 400px;
+    height: 30px;
+    font-size: 1.5rem;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    color: rgb(255, 0, 43);
+}
+
+.usernamelog2 {
+    width: 400px;
+    height: 30px;
+    font-size: 1.5rem;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    color: rgb(255, 0, 43);
+}
+
+.submitlog {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Plese {
+    width: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.selecter {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1590px) {
+    .backlogin{
+        width: 1500px;
+    }
+}
+@media (max-width: 1490px) {
+    .backlogin{
+        width: 1400px;
+    }
+}
+@media (max-width: 1390px) {
+    .backlogin{
+        width: 1300px;
+        height: 600px;
+    }
+    .loginbox{
+        height: 250px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 1290px) {
+    .backlogin{
+        width: 1200px;
+    }
+}
+@media (max-width: 1190px) {
+    .backlogin{
+        width: 1100px;
+        height: 500px;
+    }
+    .loginbox{
+        height: 200px;
+    }
+}
+@media (max-width: 1090px) {
+    .backlogin{
+        width: 1000px;
+    }
+}
+@media (max-width: 990px) {
+    .backlogin{
+        width: 900px;
+    }
+}
+@media (max-width: 890px) {
+    .backlogin{
+        width: 800px;
+        justify-content: center;
+        background-blend-mode: color-burn;
+    }
+    .loginbox{
+        height: 300px;
+    }
+}
