@@ -33,12 +33,12 @@ SubmitFer.addEventListener("click", () => {
         ConvertFer.innerText = "Plese Enter The Value of Degree Fer.";
         ConvertFer.style.color = "red";
     }else if(valueofFer == 0){
-        ConvertFer.innerText = "Degree Fahrenheit is = -17.7778deg. F";
+        ConvertFer.innerText = "Degree Celsius is = -17.7778 deg. C";
         ConvertFer.style.color = "green";
     }else {
         let DegreeCelciusis = (valueofFer - 32) * (5/9);
         console.log(DegreeCelciusis);
-        ConvertFer.innerText = "Degree Fahrenheit is = "+DegreeCelciusis+" Deg. F";
+        ConvertFer.innerText = "Degree Celsius is = "+DegreeCelciusis+" Deg. C";
         ConvertFer.style.color = "green";
         DegreeFer.disabled = true;
         SubmitFer.disabled = true;
@@ -63,7 +63,7 @@ SubmitFoot.addEventListener("click", () => {
     }else {
         let Footvalue = valueofcen / 30.48;
         console.log(Footvalue);
-        Foot.innerText = "Degree Fahrenheit is = "+Footvalue+" Deg. F";
+        Foot.innerText = "Foot is = "+Footvalue+" F";
         Foot.style.color = "green";
         centemeter.disabled = true;
         SubmitFoot.disabled = true;
@@ -87,7 +87,7 @@ SubmitConvFoot.addEventListener("click", () => {
     }else {
         let centemetervalue = valueofFoot * 30.48;
         console.log(centemetervalue);
-        centemeter11.innerText = "Degree Fahrenheit is = "+centemetervalue+" Deg. F";
+        centemeter11.innerText = "Centemeter is = "+centemetervalue+" cm";
         centemeter11.style.color = "green";
         Foot1.disabled = true;
         SubmitConvFoot.disabled = true;
@@ -111,7 +111,7 @@ SubmitConvertInch.addEventListener("click", () => {
     }else {
         let Inchvalue = valueofMillimetre / 25.4;
         console.log(Inchvalue);
-        Inch.innerText = "Degree Fahrenheit is = "+Inchvalue+" Deg. F";
+        Inch.innerText = "Inch is = "+Inchvalue+" In";
         Inch.style.color = "green";
         Millimetre.disabled = true;
         SubmitConvertInch.disabled = true;
@@ -135,7 +135,7 @@ SubmitConvertmilliMetre.addEventListener("click", () => {
     }else {
         let Millimetreval = valueofInch * 25.4;
         console.log(Millimetreval);
-        Milimeterval.innerText = "Degree Fahrenheit is = "+Millimetreval+" Deg. F";
+        Milimeterval.innerText = "Millimetre is = "+Millimetreval+" mm";
         Milimeterval.style.color = "green";
         Inchval.disabled = true;
         SubmitConvertmilliMetre.disabled = true;
